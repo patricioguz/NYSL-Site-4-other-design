@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content= "NYSL, soccer, league, chicago">
+    <meta name="description" content="esta pagina es sobre la NYSL">
+    <title>NYSL-Form</title>
+    <link rel="stylesheet" href="assets/style/nysl2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;400&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>NORTHSIDE YOUTH SOCCER LEAGUE</h1>
+    </header>
+    <nav>
+            <a href="index.html" class="button"> INICIO </a>
+            <a href="about.html" class="button"> ACERCA DE NYSL</a>
+            <a href="rules.html" class="button"> REGLAMENTOS </a>
+            <a href="game_info.html" class="button"> INFORMACION</a>
+            <a href="registration.html" class="button"> INSCRIPCION </a>
+            <a href="contact.html" class="button"> CONTACTO </a>
+    </nav>    
+    
+    <div><img  src="assets/resources/design2_image1.jpg" alt="niños jugando1"></div>
+
+    <h2> FORMULARIO DE INSCRIPCION</h2> 
+    
+    <div>
+        <img id="logo" src="assets/resources/nysl_logo.png" alt="logonysl">
+    </div>
+    <form action="show_data.html" method="get">
+        <div id="personal_datas">
+            <label for="name">Nombre del Jugador</label>
+            <input type="text" id="name" name="name" placeholder="Nombres" size="35" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="lastname">Apellidos</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Apellidos" size="35" > <br>
+            <label for="adress"> Direccion</label>
+            <input type="text" id="adress" name="adress" placeholder="Dirección" size="107" ><br>
+            <label for="city">Ciudad</label>
+            <input type="text" id="city" name="city" placeholder="Ciudad" size="40" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="zipcode">Codigo Postal</label>
+            <input type="number" id="zipcode" name="zipcode" placeholder="Código Postal" size="30" > <br>
+            <label>Fecha de Nacimiento</label>
+            <input type="date" id="birth" name="birth" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="gender"> Género: 
+                <label> Hombre</label>
+                <input type="radio" id="male" name="gendermale" >
+                <label> Mujer</label>
+                <input type="radio" id="female" name="genderfemale">
+            </label> <br>
+            <label for="grade"> Grado: 
+                <label> Pre-escolar</label>
+                <input type="radio" id="pre_school" name="pre_school" >
+                <label> 1ro</label>
+                <input type="radio" id="first" name="first" >
+                <label> 2do</label>
+                <input type="radio" id="second" name="second" >
+                <label> 3ro</label>
+                <input type="radio" id="third" name="third" >
+                <label> 4to</label>
+                <input type="radio" id="fourth" name="fourth" >
+                <label> 5to</label>
+                <input type="radio" id="fifth" name="fifth" >
+            </label>
+        </div>
+    
+        <div id="schoolar_datas">
+           <h4>¿DE QUE ESCUELA VIVES MÁS CERCA?</h4>
+            <h4 id="nearschool">Escuelas mas cercanas:</h4>
+            <div id="col1">
+                <label> AJ Katzenmaier</label>
+                <input type="radio" id="school1" name="schoolAJK" ><br>
+                <label> Greenbay</label>
+                <input type="radio" id="school2" name="schoolGB" ><br>
+                <label> Howard A. Yeager</label>
+                <input type="radio" id="school3" name="schoolHAY" ><br>
+            </div>
+            <div id="col2">
+                <label> Marjorie P. Hart</label>
+                <input type="radio" id="school4" name="schoolMPA" ><br>
+                <label> North Elementary</label>
+                <input type="radio" id="school5" name="schoolNE" ><br>
+                <label> South Elementary</label>
+                <input type="radio" id="school6" name="schoolSE" ><br>
+            </div>      
+    
+        <h4>¿QUE POSICION(ES) JUEGAS NORMALMENTE? (Marque todas las que corresponde)</h4>
+        <div>
+            <div id="col1">
+                <label> Delantero</label>
+                <input type="checkbox" id="position1" name="Delantero" ><br>
+                <label> Portero</label>
+                <input type="checkbox" id="position2" name="Portero"><br><br>
+            </div>
+            <div id="col2">
+                <label> Mediocampo</label>
+                <input type="checkbox" id="position3" name="Mediocampo"><br>
+                <label> Defensa</label>
+                <input type="checkbox" id="position4" name="Defensa"><br>
+            </div>  
+        </div>
+    
+        <h4>TAMAÑO UNIFORME</h4>
+        <div>
+            <div id="col1">
+                <label> Niño P</label>
+                <input type="radio" id="size1" name="P" ><br>
+                <label> Niño M</label>
+                <input type="radio" id="size2" name="m" ><br>
+                <label> Niño G</label>
+                <input type="radio" id="size3" name="g" ><br>
+                <label>Pequeño</label>
+                <input type="radio" id="size4" name="pequeño" >  
+            </div>
+            <div id="col2">
+                <label> Mediano</label>
+                <input type="radio" id="size5" name="Mediano" ><br>
+                <label> Grande</label>
+                <input type="radio" id="size6" name="grande" ><br>
+                <label> Extra-Grande</label>
+                <input type="radio" id="size7" name="EG" ><br>
+                
+            </div>     
+        </div>
+        </div>
+    
+        <div class="permission"> 
+            <h3>Permiso para jugar:</h3>
+            <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro
+                 y yo acataremos todas las reglas de la NORTHSIDE YOUTH SOCCER LEAGUE (NYSL). Al reconocer la posibilidad de lesiones físicas asociadas al fútbol y en consideracion 
+                a la "Liga" que acepta al solicitante de registro para sus programas y actividades de fútbol. Por la presente libero y descargo a NYSL, sus empleados y personal asociado
+                y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra cualquier reclamo por o en nombre del solicitante de registro como resultado
+                de la participación del solicitante del programa y/o en el transporte desde o hacia las actividades patrocinadas por NYSL.</p>
+            <p>Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco que he leído la política de cancelación y 
+                acepto sus términos.</p>
+        </div>
+    
+        <div id="auth">
+            <label for="name">FIRMA PADRE/TUTOR:</label>
+            <input type="text" id="authname" name="name" placeholder="Ingrese nombre para autorizar" size="60"> 
+            <label>FECHA</label>
+            <input type="authdate" id="date" name="date" placeholder="Fecha">
+        </div>
+        <div id="send">
+            <input type="submit" value="Autorizar y Enviar">
+        </div>
+    </form>
+</body>
+</html>

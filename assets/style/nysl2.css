@@ -1,0 +1,176 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #c8e2ec;
+}
+
+header{
+    font-size: 32px;
+    margin: 50px 80px 3px 130px;
+    text-shadow: 4px 4px gray;
+    
+}
+
+nav{
+    float: right;
+    margin: 15px 160px 20px 0px;
+    font-size: 20px;
+}
+
+.button { 
+    background-color: #4F7DC5;
+    color: white;
+    border: 5px solid black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 5px 7px #132C52;
+}
+
+.button:active{
+    background-color: #2BAF18;
+}
+
+img{
+    margin: 10px 30px 0px 70px; 
+    width: 1600px;
+    height: 660px;
+    padding-left: 70px;
+}
+
+ h2{
+     background-color:#4F7DC5;
+     color: white;
+     margin: 0px 30px 30px 140px;
+     width: 1600px;
+     height: 50px;
+     text-align: center;
+     font-size: 40px;
+     padding-top: 5px;
+    
+ }
+
+
+#logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+article{
+    font-size: 25px;
+    margin: 100px 100px 300px 500px;
+    line-height: 150%;
+}
+
+.info{
+    padding-left: 20px;
+    font-size: 25px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 170%;
+}
+
+.correo{
+    padding-left: 450px;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: justify;
+    line-height: 170%;
+}
+a{
+    text-decoration: none;
+}
+
+dl{
+    font-size: 20px;
+    margin: 30px 200px 25px 450px;
+    text-align: justify;
+}
+
+span{ font-weight: bolder;
+    font-size: 25px;
+}
+
+.asunto{
+    font-size: 28px;
+    text-align: center;
+    margin: 50px 300px 50px 300px;
+}
+
+.horario{
+    font-size: 24px;
+    text-align: left;
+    margin: 50px 300px 5px 0px; 
+}
+
+.article{
+    font-size: 25px;
+    margin: 100px 190px 90px 0px;
+    line-height: 150%;
+}
+.asterisco{
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.fall{
+    margin-left: 470px;
+    
+}
+table{
+    font-size: 25px;
+    width: 80%;
+    height: 390px;
+    text-align: center;
+}
+li{
+    font-size: 25px;
+}
+#rules{
+    margin: 0px 0px 300px 0px;
+}
+
+form{
+    line-height: 180%;
+    font-size: 20px;  
+}
+
+#personal_datas{
+    margin: 50px 200px 20px 500px ;
+    
+}
+#schoolar_datas{
+    margin: 10px 200px 20px 500px ;
+    font-size: 20px;
+}
+
+article{
+    margin: 100px;
+}
+
+#col1{
+     margin: 10px 20px 40px 0px;
+}
+
+#col2{
+   margin-top: -145px;
+   margin-bottom: 25px;
+    padding-left: 400px;}
+
+.permission{
+    margin: 20px 400px 10px 500px;
+    text-align: justify;
+}
+#auth{
+    margin: 10px 400px 10px 500px;
+}
+#send{
+    margin: 5px 400px 150px 500px;
+}
+.map{
+    margin: 80px 200px;
+}
